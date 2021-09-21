@@ -11,7 +11,10 @@ export class FilterComponent implements OnInit {
   @Output() closePopup = new EventEmitter();
   allRestaurantCuisines = [];
   selectedItem = 'All';
-  constructor(public api: ApiService, public data: DataService) { }
+
+  constructor(public api: ApiService, public data: DataService) {
+
+  }
 
   ngOnInit(): void {
     this.getData();
@@ -28,6 +31,7 @@ export class FilterComponent implements OnInit {
 
   hide() {
     this.closePopup.emit(false);
+    this.data.addBlur.next(false);
   }
 
   filterData(event) {

@@ -1,5 +1,14 @@
 <div class="container-fluid" id="viewport">
   <!-- Sidebar -->
+  <div   [ngClass]="{ 'blur-element': addBlurOnElement === true }">
+
+
+</div>
+
+<app-filter
+*ngIf="fiterPopup"
+(closePopup)="fiterPopup = $event"
+class="NonOpaque"></app-filter>
 
   <div id="sidebar">
     <header class="align-head">
@@ -132,7 +141,7 @@
             </div>
           </div>
 
-          <div class="block" (click)="openFilter('fiterPopup')">
+          <div class="block" (click)="openFilter('fiterPopup')" style="cursor: pointer;">
             <img
               src="assets/images/Icon.svg"
               alt="basket"
@@ -153,12 +162,11 @@
     <div class="container-fluid">
 
       <router-outlet></router-outlet>
-      <app-filter
-        *ngIf="fiterPopup"
-        (closePopup)="fiterPopup = $event"
-      ></app-filter>
+
+
 
 
     </div>
   </div>
+
 </div>

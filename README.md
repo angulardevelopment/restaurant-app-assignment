@@ -1,7 +1,6 @@
 https://www.figma.com/file/VZoJ638vnlfIfCXcYu7qEf/Web-Dev-test?node-id=0%3A1
 
 
-TODO: blur background after opening the filter popup
 
 
 

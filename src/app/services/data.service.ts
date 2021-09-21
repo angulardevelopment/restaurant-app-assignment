@@ -6,6 +6,8 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class DataService {
   selectedCuisineItem = new BehaviorSubject<string>('');
+  addBlur = new BehaviorSubject<boolean>(false);
+
 
   constructor() { }
 
