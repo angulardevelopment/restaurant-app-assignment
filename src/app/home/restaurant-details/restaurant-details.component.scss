@@ -1,0 +1,58 @@
+.update-size :not(h2) {
+  font-size: 16px;
+}
+
+.split-line {
+  word-wrap: break-word;
+  width: 50%;
+}
+
+.details {
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.menu-image {
+  height: 100%;
+}
+
+.active {
+  border-radius: 10px;
+}
+.menu-data {
+  margin-top: 10%;
+}
+
+.highlight-categories {
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #626264;
+}
+
+.restaurant-image {
+  height: 270px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.details-format :not(h2) {
+  font-size: 16px;
+  line-height: 24px;
+  color: #626264;
+}
+
+.highlight-currency {
+  color: #503e9d;
+}
+
+.highlight {
+  background: #503e9d;
+
+  border-radius: 10px;
+  .nav-link {
+    color: #f7fafc;
+  }
+}

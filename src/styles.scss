@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.align-restaurants{
+  width: 30%;
+img{
+  height:175px;
+}
+}
+
+.block {
+  //   position: absolute;
+  // left: 0%;
+  // right: 0%;
+  // top: 0%;
+  // bottom: 0%;
+
+  /* Colors/Primary/#503E9D/100% */
+  width:  48px;
+  height : 48px;
+
+
+  background: #503E9D;
+  border-radius: 10px;
+  margin-left:10px;
+  }
+
+  .center-item{
+    margin-top: 15px;
+  }
+
+  .detail-btn{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: #503E9D;
+    border-radius: 10px;
+    color: white;
+    padding: 9px;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+
+.order-image {
+  background: rgba(251, 109, 58, 0.1);
+}
+
+
+
+

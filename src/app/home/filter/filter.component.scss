@@ -1,0 +1,32 @@
+.btn-filter {
+  width: 416px;
+  height: 64px;
+  background: #503e9d;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  margin: 10px;
+}
+
+.filter-block {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  bottom: 0;
+  background: white;
+  width: 35%;
+}
+.open-box {
+  color: #fb6d3a;
+  margin: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.highlight-cuisine {
+  color: #fb6d3a;
+}
