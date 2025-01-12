@@ -6,7 +6,8 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-restaurants',
   templateUrl: './restaurants.component.html',
-  styleUrls: ['./restaurants.component.scss']
+  styleUrls: ['./restaurants.component.scss'],
+  standalone: false
 })
 export class RestaurantsComponent implements OnInit {
   allRestaurantList = [];

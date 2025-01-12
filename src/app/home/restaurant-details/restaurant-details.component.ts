@@ -6,7 +6,8 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-restaurant-details',
   templateUrl: './restaurant-details.component.html',
-  styleUrls: ['./restaurant-details.component.scss']
+  styleUrls: ['./restaurant-details.component.scss'],
+  standalone: false
 })
 export class RestaurantDetailsComponent implements OnInit {
   allRestaurants = [];
